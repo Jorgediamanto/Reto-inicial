@@ -1,5 +1,16 @@
 # 15 movimientos
+def my_function(x1,efef,m1,m2):
+    ddd = []
+    ramon = 0
+                    
+    ddd.append(efef[m1])
+    ddd.append(efef[m2])
 
+    for z1 in range(20):
+        if ddd==x1[z1]:
+            ramon=1
+    return ramon
+  
 total=0
 efef = []
 
@@ -22,7 +33,6 @@ for x in range(10):
                                                     for x14 in range(10):
                                                         for x15 in range(10):
                                                             for x16 in range(10):
-                                    
                                                                 efef.append(x)
                                                                 efef.append(y)
                                                                 efef.append(x3)
@@ -55,146 +65,25 @@ for x in range(10):
                                                                 x28=0
                                                                 x29=0
                                                                 x30=0
-
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[0])
-                                                                ddd.append(efef[1])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x2=1
-
                                                                 
+
+                                                                x2 = my_function(x1,efef,0,1)
+                                                                x22 = my_function(x1,efef,1,2)
+                                                                x222 = my_function(x1,efef,2,3)
+                                                                x2222 = my_function(x1,efef,3,4)
+                                                                x22222 = my_function(x1,efef,4,5)
+                                                                x21=my_function(x1,efef,5,6)
+                                                                x22=my_function(x1,efef,6,7)
+                                                                x23=my_function(x1,efef,7,8)
+                                                            
+                                                                x24=my_function(x1,efef,8,9)
+                                                                x25=my_function(x1,efef,9,12)
+                                                                x26=my_function(x1,efef,10,11)
+                                                                x27=my_function(x1,efef,11,12)
+                                                                x28=my_function(x1,efef,12,13)
+                                                                x29=my_function(x1,efef,13,14)
+                                                                x30=my_function(x1,efef,14,15)
                                                                 
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[1])
-                                                                ddd.append(efef[2])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x22=1
-
-                                                                ddd = []
-                                                                ddd.append(efef[2])
-                                                                ddd.append(efef[3])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x222=1
-
-
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[3])
-                                                                ddd.append(efef[4])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x2222=1
-
-
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[4])
-                                                                ddd.append(efef[5])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x22222=1
-
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[5])
-                                                                ddd.append(efef[6])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x21=1
-
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[6])
-                                                                ddd.append(efef[7])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x22=1
-                                                                
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[7])
-                                                                ddd.append(efef[8])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x23=1
-
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[8])
-                                                                ddd.append(efef[9])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x24=1
-
-
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[9])
-                                                                ddd.append(efef[10])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x25=1
-
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[10])
-                                                                ddd.append(efef[11])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x26=1
-
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[12])
-                                                                ddd.append(efef[13])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x27=1
-                                                                
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[14])
-                                                                ddd.append(efef[15])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x28=1
-                                                                
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[15])
-                                                                ddd.append(efef[16])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x29=1
-
-                                                                ddd = []
-                                                            
-                                                                ddd.append(efef[16])
-                                                                ddd.append(efef[17])
-
-                                                                for z1 in range(20):
-                                                                    if ddd==x1[z1]:
-                                                                        x30=1
-
 
                                                                 if x2==1 and x22==1 and x222==1 and x2222==1 and x22222==1 and x21==1 and x22==1 and x23==1 and x24==1 and x25==1 and x26==1 and x27==1 and x28==1 and x29==1 and x30==1:
                                                                     total = total+1
